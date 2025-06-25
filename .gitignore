@@ -1,0 +1,76 @@
+# .gitignore for Professional RAG System (Python, FastAPI, ChromaDB, Typer, Gemini)
+#
+# Exclude Python, virtual environments, environment files, database artifacts, and OS/editor files
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Database files
+*.sqlite3
+*.db
+*.db-journal
+chroma_db_store/
+
+# Data files
+*.jsonl
+*.json
+*.csv
+*.tsv
+*.parquet
+*.pkl
+*.pickle
+
+# Logs and local output
+*.log
+*.out
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Test and coverage outputs
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Misc
+*.swp
+*.swo
+
+# Ignore README and requirements only if generated/temporary
+# !README.md
+# !requirements.txt

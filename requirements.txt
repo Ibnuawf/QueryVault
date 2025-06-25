@@ -1,0 +1,33 @@
+# ===============================================================================
+# requirements.txt — Python Dependencies for Professional RAG System
+# -------------------------------------------------------------------------------
+# This file lists all required Python packages for development, testing, and
+# production deployment of the Retrieval-Augmented Generation (RAG) application.
+#
+# Guidelines:
+# - Group dependencies by functional area for clarity.
+# - Use explicit version pinning for production stability if needed.
+# - Keep this file up to date with all modules imported in the project.
+# - For local development, use:    pip install -r requirements.txt
+# - For production, review and audit all dependencies for security.
+# ===============================================================================
+
+# Web Framework and Server
+fastapi[all]
+uvicorn
+
+# Command-Line Interface
+typer[all]
+
+# Configuration Management
+pydantic
+pydantic-settings
+
+# AI and Machine Learning
+google-generativeai
+google-api-core
+sentence-transformers
+torch
+
+# Vector Database
+chromadb

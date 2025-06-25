@@ -1,0 +1,17 @@
+# ==============================================================================
+# .env — Environment Configuration for Professional RAG System
+# ------------------------------------------------------------------------------
+# This file contains sensitive environment variables for local development and
+# deployment. Do NOT commit real API keys or secrets to public repositories.
+#
+# Usage:
+# - Define all required secrets and configuration values here.
+# - This file is loaded automatically by the application via pydantic-settings.
+# - Example variables: GEMINI_API_KEY, DATABASE_URL, etc.
+#
+# Security:
+# - Keep this file secure and out of version control in production.
+# - Rotate secrets regularly and never share them publicly.
+# ==============================================================================
+
+GEMINI_API_KEY=" gthfgdcz "
