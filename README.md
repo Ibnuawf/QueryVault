@@ -20,7 +20,7 @@ A robust, production-ready Retrieval-Augmented Generation (RAG) application leve
 ## 🗂️ Project Structure
 
 ```
-fetwa_RAG_app/
+QueryVault/
 ├── .env                  # Environment variables (API keys, secrets)
 ├── requirements.txt      # Python dependencies
 ├── README.md             # Project documentation
@@ -46,8 +46,8 @@ fetwa_RAG_app/
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/Ibnuawf/fetwa_RAG_app
-   cd fetwa_RAG_app
+   git clone https://github.com/Ibnuawf/QueryVault
+   cd QueryVault
    ```
 
 2. **Create a Virtual Environment**
