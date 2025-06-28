@@ -1,4 +1,4 @@
-# Professional RAG System
+# QueryVault
 
 A robust, production-ready Retrieval-Augmented Generation (RAG) application leveraging FastAPI, Typer, ChromaDB, and Google Gemini. Designed for scalable, maintainable, and secure knowledge retrieval and question answering.
 
